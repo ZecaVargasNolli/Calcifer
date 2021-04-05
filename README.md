@@ -81,8 +81,10 @@ Fonte: Elaborado pelo autor
   Para testar o projeto será nescessário abri-lo e no primeiro textarea digitar o texto a ser processado, o mesmo deve ser em inglês, posteriormento deve-se clicar no botão atualizar e esperar até que no segundo textarea, que está bloqueado para a utilização do usuário, sejá apresentado os dados obtidos, sendo esses a porcentagem de cada situação no texto e o veredito final do sistema que pode variar entre positivo, negativo ou neutro(inconclusivo). Foi decidido no desenvolvimento que o veredito final da situação do texto seria obtida pela situação que mais estária presente no texto , desconsiderando a neutra, porque um txsto pode possuir sentenças de todos os tipos de situação, simultaneamente.
   
  # 9. LINK
-https://youtu.be/JUox6sP8IXk PART 1
-https://youtu.be/-uRo2v8IJpY PART 2
+https://youtu.be/JUox6sP8IXk PART 1 - Explicação do Conteúdo;
+
+https://youtu.be/-uRo2v8IJpY PART 2 - Resultados;
+
 # Referência
 
 (Vicente)
