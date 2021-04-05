@@ -28,6 +28,17 @@ Giancarlo Pandini, José Vargas Nolli
 
    O processamento de linguagem natural é uma abordagem que consistê em possibilitar uma comunicação entre humano e máquina, permitindo a interpretançaõ de texto de construção mais complexa pelo sistema ao converter o texto em uma série de interpretações lógicas. Exemplos comuns da utilização dessa aréa a inteligência artificial seriam: chatbots, a tradução de textos entre linguás diferentes, a conversão de textos em aúdios e de aúdios em textos, a sumarização de texto, a mineração de sentimneto entre outros processos.
 
+# 3.1.Mineração de Sentimento
+  A mineração de Sentimento e a análise de sentimento são disciplinas que buscam identificar conteúdo expresso em opiniões, e determinar o sentimento, emoção, atitude ou percepção do público em relação ao objeto alvo desta opinião.
+  
+# 3.2.Chatbot
+
+São software que podem proporcionar, conversar que simulam a humana, tentando atender as nescessidades de seu "usuário" da forma mais assertiva e rápida possível.
+
+# 3.3.Sumarização de Texto
+
+Um processo que busca resumir o texto, de uma forma que todo o sentido e importância do texto não seja perdida, buscando manter o cerne de seu contexto sempre presente.
+
 # 4.Árvore de Dependência
    Uma àvore de dependência é uma formatação onde a existÊncia de um ramo dependente está obrigtóriamente ligada ao ramo independente ou superior, enquanto o ramo independente pode existir sem a presença de seu ramo dependente.
 
@@ -50,6 +61,20 @@ Fonte: Elaborado pelo autor.
 
    O Diagrama acima exemplifica o processamento base do projeto que consiste em  inicialmente capturar os dados preenchidos na tela ao usuário clicar no botão analizar, após isso o testo é enviado para o controller que fara a função de chamar a API e obter as informações calculadas pela mesma.Será apresentado ao usuário os seguintes resultados:
   porcentagem do texto com sentimento negativo, porcentagem do texto com sentimento positivo, porcentagem do texto que é inconclusivo(neutro) e por fim o resultado final definido.
+  
+# 7.Resultado
+
+![resultado](https://user-images.githubusercontent.com/43889995/113525232-19742680-958a-11eb-8274-cb13fa49c8f0.png)
+
+Para se obter o resultado foram utilizados 16668 regsitrosde texto presentes no grupo de testes do dataset utilizado, 8334 deveriam obter resultado positivo e 8334  resultado negativo. A acurácia do projeto após a aplicação dos registros de teste pode-se afirmar que chegou próximo aos 73% de exatidão e rigor, o que indica um resultado razoavelmente bom, ao se levar em conta problemas como o fato do treinamento da API nãoser especifica para o tipo de dado utilizado para tstes e como mencionado antes a importância de se levar em consideração a dificuldade do sistema de entender textos sacarticos ou de duplo sentido. Embora não tenha cido testado com os dados em completude podemos dizer que com a verificação dos resutlados gerados pela matriz de confusão do projeto, é plaúsivel afirmar que a API Stanford CoreNLP pode ser considerada uma opçaõ víavel para se utilizar quando nescessário tratar , nesta situação ,a verificação de textos, principalmente para a verificação de pesquisas ou a avaliações, devido ao fato de seu processamento apresentar resultados sólidos e com uma taxa de acerto aceitavel, isso avaliado dentro de um contexto de critícas de filme.
+
+# 8.Resumo e Passo-a-Passo
+
+  O projeto foi desenvolvido utilizando a API Stanford CoreNLP, e aplicada interface desenvolvida em Java Swing. Foram desenvolvidos dosi projetos, o primeiro possui a interface e serve para utilizar com apenas um registro por vez demandando um tempo considerável para conectar ao servidor da API. POrem o segundo foi desenvolvido com a ideia de tratar os dados presentes no dataset, lendo os arquivos com os textos a serem utilizados e dividindo a execuçaõ deles em 3 threads a fim de otimizar o tempo.
+
+  Para testar o projeto será nescessário abri-lo e no primeiro textarea digitar o texto a ser processado, o mesmo deve ser em inglês, posteriormento deve-se clicar no botão atualizar e esperar até que no segundo textarea, que está bloqueado para a utilização do usuário, sejá apresentado os dados obtidos, sendo esses a porcentagem de cada situação no texto e o veredito final do sistema que pode variar entre positivo, negativo ou neutro(inconclusivo). Foi decidido no desenvolvimento que o veredito final da situação do texto seria obtida pela situação que mais estária presente no texto , desconsiderando a neutra, porque um txsto pode possuir sentenças de todos os tipos de situação, simultaneamente.
+  
+ # 9. LINK
 
 # Referência
 
