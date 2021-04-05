@@ -85,6 +85,8 @@ https://youtu.be/JUox6sP8IXk PART 1 - Explicação do Conteúdo;
 
 https://youtu.be/-uRo2v8IJpY PART 2 - Resultados;
 
+https://drive.google.com/file/d/1lvQ8lSXb3N8kFcLFB2E6Li9leHOGlbOu/view?usp=sharing Executavel
+
 # Referência
 
 (Vicente)
