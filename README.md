@@ -68,6 +68,12 @@ Fonte: Elaborado pelo autor.
 
 Para se obter o resultado foram utilizados 16668 regsitrosde texto presentes no grupo de testes do dataset utilizado, 8334 deveriam obter resultado positivo e 8334  resultado negativo. A acurácia do projeto após a aplicação dos registros de teste pode-se afirmar que chegou próximo aos 73% de exatidão e rigor, o que indica um resultado razoavelmente bom, ao se levar em conta problemas como o fato do treinamento da API nãoser especifica para o tipo de dado utilizado para tstes e como mencionado antes a importância de se levar em consideração a dificuldade do sistema de entender textos sacarticos ou de duplo sentido. Embora não tenha cido testado com os dados em completude podemos dizer que com a verificação dos resutlados gerados pela matriz de confusão do projeto, é plaúsivel afirmar que a API Stanford CoreNLP pode ser considerada uma opçaõ víavel para se utilizar quando nescessário tratar , nesta situação ,a verificação de textos, principalmente para a verificação de pesquisas ou a avaliações, devido ao fato de seu processamento apresentar resultados sólidos e com uma taxa de acerto aceitavel, isso avaliado dentro de um contexto de critícas de filme.
 
+![WhatsApp Image 2021-04-05 at 00 41 38](https://user-images.githubusercontent.com/43889995/113624983-b1c7e500-9636-11eb-87fb-0a5d04b0b558.jpeg)
+Fonte: Elaborado pelo autor
+
+![WhatsApp Image 2021-04-05 at 01 01 21](https://user-images.githubusercontent.com/43889995/113625019-ba202000-9636-11eb-9c4f-eeb7c65ad220.jpeg)
+Fonte: Elaborado pelo autor
+
 # 8.Resumo e Passo-a-Passo
 
   O projeto foi desenvolvido utilizando a API Stanford CoreNLP, e aplicada interface desenvolvida em Java Swing. Foram desenvolvidos dosi projetos, o primeiro possui a interface e serve para utilizar com apenas um registro por vez demandando um tempo considerável para conectar ao servidor da API. POrem o segundo foi desenvolvido com a ideia de tratar os dados presentes no dataset, lendo os arquivos com os textos a serem utilizados e dividindo a execuçaõ deles em 3 threads a fim de otimizar o tempo.
